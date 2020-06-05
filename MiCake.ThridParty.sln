@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCake.Autofac", "src\MiCak
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCake.Serilog", "src\MiCake.Serilog\MiCake.Serilog.csproj", "{6E7A4DD4-B366-4337-B2E2-AAE228984122}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Castle", "Castle", "{C447190A-2B90-436F-B9BD-B2DE0CEFDFBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCake.Aop.Castle", "src\MiCake.Aop.Castle\MiCake.Aop.Castle.csproj", "{6F4B62C9-4066-4F41-8B2F-31C05864224D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCake.Aop.Tests", "src\MiCake.Aop.Tests\MiCake.Aop.Tests.csproj", "{991CA405-B6B5-4461-BEA3-3491935C900C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{6E7A4DD4-B366-4337-B2E2-AAE228984122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E7A4DD4-B366-4337-B2E2-AAE228984122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E7A4DD4-B366-4337-B2E2-AAE228984122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4B62C9-4066-4F41-8B2F-31C05864224D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4B62C9-4066-4F41-8B2F-31C05864224D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4B62C9-4066-4F41-8B2F-31C05864224D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4B62C9-4066-4F41-8B2F-31C05864224D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{991CA405-B6B5-4461-BEA3-3491935C900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{991CA405-B6B5-4461-BEA3-3491935C900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{991CA405-B6B5-4461-BEA3-3491935C900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{991CA405-B6B5-4461-BEA3-3491935C900C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F4B62C9-4066-4F41-8B2F-31C05864224D} = {C447190A-2B90-436F-B9BD-B2DE0CEFDFBD}
+		{991CA405-B6B5-4461-BEA3-3491935C900C} = {C447190A-2B90-436F-B9BD-B2DE0CEFDFBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D97D26CB-E57C-44B5-8E68-04B5F305DF4F}
